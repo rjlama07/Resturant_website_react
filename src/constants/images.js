@@ -20,6 +20,8 @@ import award05 from "../assets/award05.png";
 import sign from "../assets/sign.png";
 import quote from "../assets/quote.png";
 import gericht from "../assets/gericht.png";
+import logojpg from "../assets/logo.jpg";
+import meat from "../assets/meat.png";
 
 export default {
   bg,
@@ -36,7 +38,7 @@ export default {
   spoon,
   welcome,
   findus,
-  // laurels,
+  logojpg,
   award01,
   award02,
   award03,
@@ -44,4 +46,5 @@ export default {
   sign,
   quote,
   gericht,
+  meat,
 };

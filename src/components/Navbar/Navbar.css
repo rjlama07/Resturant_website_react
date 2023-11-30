@@ -3,8 +3,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: var(--color-black);
-    padding: 1rem 2rem;
+    background: var(--color-white);
+    padding: 1rem 5rem;
 }
 
 .app__navbar-logo{
@@ -28,36 +28,21 @@
 }
 
 .app__navbar-links li{
+    font-family: "Open Sans";
+    font-weight: 400;
     margin: 0 1rem;
     cursor: pointer;
+    color: var(--color-primary);
 }
 
 .app__navbar-links li:hover{
     color: var(--color-grey);
 }
 
-.app__navbar-login{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
 
 
-.app__navbar-login a{
-    margin: 0 1rem;
-    text-decoration: none;
-    transition: 0.5 ease;
-}
 
-.app__navbar-login a:hover{
-    border-bottom: 1px solid var(--color-golden);
-}
 
-.app__navbar-login div{
-    width: 1px;
-    height: 30px;
-    background-color: var(--color-grey);
-}
 
 .app__navbar-smallscreen{
     display: none;

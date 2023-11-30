@@ -14,9 +14,13 @@ const Chef = () => (
       <div className='app__chef_content'>
         <div className='app__chef_content_quote'>
           <img src={images.quote} alt="Quotes" />
-          <p className='p__opensans'>Cooking is like painting or writing a song.</p>
+          <p className='p__opensans' style={{
+            color: '#171717',
+          }}>Cooking is like painting or writing a song.</p>
         </div>
-        <p className='p__opensans'>Just as there are only so many notes or colors, there are only so many flavors - it's how you combine them that sets you apart.</p>
+        <p className='p__opensans' style={{
+          color: '#171717',
+        }}>Just as there are only so many notes or colors, there are only so many flavors - it's how you combine them that sets you apart.</p>
       </div>
       <div className='app__chef-sign'>
         <p>Kevin Luo</p>

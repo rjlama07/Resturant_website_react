@@ -15,6 +15,7 @@
     width: 47px;
     height: 40px;
     margin: 0 1rem 1rem 0;
+    color: #000;
 
 }
 .app__chef-sign{
@@ -29,7 +30,7 @@
     line-height: 41px;
     letter-spacing: 0.04em;
     text-transform: capitalize;
-    color:var(--color-golden);
+    color:var(--color-primary);
 }
 
 
@@ -48,8 +49,7 @@
     }  
 }
 @media screen and (max-width: 450px) {
-    .app__chef-sign img{
-        
+    .app__chef-sign img{  
        width: 80px;
     
     }  
