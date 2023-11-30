@@ -3,6 +3,7 @@ import React from 'react';
 import './Header.css';
 import { SubHeading } from '../../components';
 import { images } from '../../constants';
+import { scroller } from 'react-scroll';
 
 const Header = () => (
   <div className='app__header app__wrapper section__padding id="/'>
@@ -15,7 +16,13 @@ const Header = () => (
       }}>
         Our restaurant specializes in the art of barbecue, bringing together a symphony of smoky flavors and savory delights. We take pride in crafting a menu inspired by various barbecue traditions, offering a unique and mouthwatering experience for our guests
       </p>
-      <button className='custom__button' type='button'>Explore Menu</button>
+      <button className='custom__button' type='button' onClick={() => {
+        scroller.scrollTo('Menu', {
+          smooth: true,
+          offset: 50,
+          duration: 2,
+        });
+      }}>Explore Menu</button>
 
     </div>
     <div className='app__wrapper_img'>
